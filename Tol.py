@@ -51,6 +51,9 @@ def login(username,password,cek=False):
         global die,check,result,count
         b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
         params = {
+            cek = input("[\033[1;32m>\033[0m Masukan Cookie : ")
+        cek = {"cookie":cek}
+                
                 'access_token': b,
                 'format': 'JSON',
                 'sdk_version': '2',
