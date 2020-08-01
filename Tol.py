@@ -46,7 +46,8 @@ def masuk():
                         pass 
                 return cek["cookie"]
         else:
-                 exit("# cookie Tidak valid")
+                 (" exit #cookie Tidak valid ")
+                                            
 def login(username,password,cek=False):
         global die,check,result,count
         b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
