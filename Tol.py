@@ -26,7 +26,7 @@ def masuk():
                 cek = open("cookies").read()
         except FileNotFoundError:
                 cek = input("[\033[1;32m>\033[0m Masukan Cookie : ")
-        cek = {"cookie":cek}
+        cek = {"cookie:cek")
         ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
         if "mbasic_logout_button" in str(ismi):
                 if "Apa yang Anda pikirkan sekarang" in str(ismi):
